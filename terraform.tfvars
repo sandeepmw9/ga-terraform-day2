@@ -1,0 +1,5 @@
+cidr_block = "10.0.0.0/16"
+vpc_name = "my_vpc_161224-${terraform.workspace}"
+instance_name = "my_instance-${terraform.workspace}"
+instance_type = "t3.micro"
+bucket_name = "bucket161224-${terraform.workspace}"
